@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "344936387246",
+    "firebase_url": "https://unsocial-cedd0-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "unsocial-cedd0",
+    "storage_bucket": "unsocial-cedd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344936387246:android:02376492be607eb43f533f",
+        "android_client_info": {
+          "package_name": "com.example.unsocial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqmEcYkXfwzY05h0NUMdiZcbjBA06xFIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Other_User_Profile">
+
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/Profile_Pic"
+            android:layout_width="169dp"
+            android:layout_height="175dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/baseline_person_24">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/titleName"
+            android:layout_width="117dp"
+            android:layout_height="44dp"
+            android:layout_below="@+id/Profile_Pic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="-142dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-140dp"
+            android:layout_toStartOf="@id/Profile_Pic"
+            android:layout_toEndOf="@id/Profile_Pic"
+            android:gravity="center"
+            android:text="Other Profile"
+            android:textColor="@color/purple"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="254dp"
+            android:layout_below="@+id/titleName"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="18dp"
+            android:background="@drawable/background"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/postsNumber"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="26dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/posts"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="POSTS"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/followsNumber"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/follows"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="UNFOLLOWS"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/followersNumber"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/followers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="UNFOLLOWERS"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="324dp"
+            android:layout_below="@+id/titleName"
+            android:layout_alignStart="@+id/linear_layout"
+            android:layout_alignEnd="@+id/linear_layout"
+            android:layout_alignBottom="@+id/linear_layout"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="121dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="9dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Name:"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Name"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Address:"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/user_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Address"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_layout">
+
+            <!-- Your existing layout content here -->
+
+            <!-- Button -->
+            <Button
+                android:id="@+id/Unfollow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/purple"
+                android:text="Unfollow"></Button>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

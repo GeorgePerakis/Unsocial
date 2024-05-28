@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Feed"
+        android:icon="@drawable/sharp_dynamic_feed_24"
+        android:title="Feed" />
+    <item
+        android:id="@+id/Profile"
+        android:icon="@drawable/baseline_co_present_24"
+        android:title="Profile" />
+    <item
+        android:id="@+id/Settings"
+        android:icon="@drawable/baseline_construction_24"
+        android:title="Settings" />
+</menu>
